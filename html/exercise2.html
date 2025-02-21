@@ -1,0 +1,40 @@
+<!-- Exercise 2:
+• Create a form that includes the following fields:
+• Name (text input)
+• Email (text input)
+• Gender (radio buttons: Male, Female, Other)
+• Programming Languages (checkboxes: HTML, CSS, JavaScript, Python)
+• Submit button (set action to " ")
+  -->
+
+<form>
+  <label for="name">Name :</label>
+  <input type="text" name="name"/><br/>
+
+  <label for="email">Email :</label>
+  <input type="email" name="email"/><br/>
+
+  <p>Gender:<p>
+  <input type="radio" name="male"/>
+  <label for="male"> Male </label> <br/>
+  <input type="radio" name="female"/>
+  <label for="female"> female </label><br/>
+  <input type="radio" name="other"/>
+  <label for="other"> Other </label><br/>
+
+  <p>languages:</p>
+  <input type="checkbox" name="html" value="html"/>
+  <label for="html"> HTML </label><br />
+
+  <input type="checkbox" name="css" value="css"/>
+  <label for="css"> CSS </label> <br />
+
+  <input type="checkbox" name="js" value="js"/>
+  <label for="js"> JavaScript </label> <br />
+
+  <input type="checkbox" name="python" value="python"/>
+  <label for="python"> Python </label>
+
+  <br /><br />
+  <input type="submit" value="Submit"/>
+</form>
